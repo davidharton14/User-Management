@@ -5,7 +5,7 @@ import { toast } from 'react-toastify'
 const initialState={
     name:"",
     email:"",
-    contact:""
+    contact:"" 
 }
 const EditUser = () => {
     const [state,setState]=useState(initialState)

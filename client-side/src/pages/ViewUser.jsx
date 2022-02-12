@@ -9,7 +9,7 @@ const[user,setUser]=useState({})
     useEffect(()=>{
     if(id){
     getSingleUser(id)
-    }
+    } 
     },[id])
     const getSingleUser=async(id)=>{
     const response = await axios.get(`/api/users/${id}`)

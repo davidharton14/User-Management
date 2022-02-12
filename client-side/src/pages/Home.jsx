@@ -6,7 +6,7 @@ import axios from 'axios'
 const Home = () => {
     const [data, setData] = useState([])
     useEffect(() => {
-        getUsers()
+        getUsers() 
     }, [])
     const getUsers = async () => {
         const response = await axios.get("/api/allUsers")

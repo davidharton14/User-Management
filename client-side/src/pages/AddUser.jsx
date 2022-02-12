@@ -5,7 +5,7 @@ import axios from 'axios'
 import { toast } from 'react-toastify'
 const initialState={
     name:"",
-    email:"",
+    email:"", 
     contact:""
 }
 const AddArticle = () => {
