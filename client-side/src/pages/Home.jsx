@@ -7,7 +7,7 @@ const Home = () => {
     const [data, setData] = useState([])
     useEffect(() => {
         getUsers() 
-    }, [])
+    }, []) 
     const getUsers = async () => {
         const response = await axios.get("/api/allUsers")
         if(response.status===200){
